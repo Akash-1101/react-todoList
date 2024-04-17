@@ -1,0 +1,70 @@
+/* Write your CSS here */
+li {
+    list-style: none;
+  
+    border: 2px solid #b5b7c4;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .ap-container {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .star-btn {
+    background-color: transparent;
+    border-width: 0px;
+  }
+  .ap-title {
+    font-weight: 500;
+    color: #171f46;
+  }
+  .date-para {
+    color: #b5b7c4;
+    font-weight: 800;
+  }
+  @media (min-width: 767px) {
+    li {
+      width: 300px;
+      border: 2px solid #b5b7c4;
+      border-radius: 8px;
+      padding: 10px;
+      width: 400px;
+    }
+  }
+  .delete-btn {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #cc0000;
+  }
+  .complete-btn {
+    background-color: #66cc00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .complete-btn:hover {
+    background-color: #55aa00;
+  }
+  .update-btn{
+    background-color: #465df0;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.pending-img{
+  height:40px;
+}
