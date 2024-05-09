@@ -1,0 +1,146 @@
+/* Write your CSS here */
+.bg-main-container {
+    background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+    height: 280vh auto;
+    padding: 20px;
+  }
+  .bg-container1 {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 16px;
+  }
+
+  .title {
+    color: #b5b7c4;
+    font-weight: 500;
+    margin: 5px;
+  }
+  h1 {
+    color: #171f46;
+  }
+  .inputTitle {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 90%;
+    margin-top: 5px;
+  }
+  * {
+    font-family: 'Roboto';
+  }
+ 
+.buttonEle {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #5452ea;
+    color: white;
+    width: 80px;
+    border-width: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+    width:100%;
+  }
+  .bg-container21 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .buttenEl2 {
+    color: #9897f0;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    height: 25px;
+    border-color: #9897f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  @media (min-width: 576px) {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+  }
+.main-heding{
+  color: #454482;
+  font-size: 50px;
+  font-weight:550;
+}
+.textAreaInput {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Allow the height to adjust based on content */
+  padding: 8px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  border: 1px solid #ccc; /* Add a border for visual clarity */
+  border-radius: 4px; /* Add some border radius for rounded corners */
+  resize: vertical; /* Allow vertical resizing only */
+}
+.todoListImg{
+  height: 150px;
+  width:250px;
+  order:2;
+}
+.form-container {
+  width: 90%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+@media (min-width: 767px) {
+  .form-container {
+    width: 90%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .todoListImg{
+    height: 300px;
+    width: 350px;
+    order:1;
+  }
+}
+
+.priorityInput{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  width: auto;
+  margin-top: 5px;
+}
+/* index.css */
+
+.button0 {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+
+.button0:active {
+  background-color: #011502; /* Darker green when clicked */
+}
+.btn2{
+  background-color: #2b7eeb;
+}
