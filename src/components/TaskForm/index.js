@@ -119,6 +119,7 @@ const Todos = () => {
     setTaskList(filteredList);
     setTodoListBackUp(filteredList);
   };
+  
 
   const clearAllFilters = () => {
     setTaskList(TodoListBackUp);
